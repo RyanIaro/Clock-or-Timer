@@ -1,0 +1,36 @@
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.clock{
+    margin: 40vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #00f001;
+    font-family: "Orbitron", Arial;
+    font-size: 6rem;
+}
+
+.clock span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+}
+
+button{
+    margin: 0 1%;
+    color: #00f001;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #000;
+}
